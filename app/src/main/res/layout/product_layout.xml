@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:layout_marginBottom="0dp">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_width="130dp"
+        android:layout_height="105dp"
+        android:elevation="10dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/partnerscompany"
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginEnd="52dp"
+            android:layout_marginBottom="66dp"
+            android:fontFamily="@font/montserrat"
+            android:text="TextView"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/discountprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginBottom="45dp"
+            android:fontFamily="@font/montserrat"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textSize="12sp"
+            tools:text="from 4%" />
+
+        <TextView
+            android:id="@+id/productsales"
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="74dp"
+            android:layout_marginBottom="19dp"
+            android:fontFamily="@font/montserrat"
+            android:text="TextView"
+            android:textSize="10sp" />
+
+        <ImageView
+            android:id="@+id/alibag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="23dp"
+            app:srcCompat="@drawable/ic_shopping_bag_1"
+            tools:ignore="VectorDrawableCompat" />
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

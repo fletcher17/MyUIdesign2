@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/productView"
+        android:enabled="true"
+        android:icon="@drawable/ic_wallet"
+        android:title="@string/products"
+        android:titleCondensed="@string/products"
+        android:visible="true"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/paymentView"
+        android:enabled="true"
+        android:icon="@drawable/ic_wallet1"
+        android:title="@string/payment"
+        android:visible="true"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/historyView"
+        android:enabled="true"
+        android:icon="@drawable/ic_clock1"
+        android:title="@string/history"
+        android:visible="true"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/supportView"
+        android:enabled="true"
+        android:icon="@drawable/ic_heart1"
+        android:title="@string/support"
+        android:visible="true"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/moreView"
+        android:enabled="true"
+        android:icon="@drawable/ic_more"
+        android:title="@string/more"
+        android:visible="true"
+        app:showAsAction="always|withText" />
+</menu>

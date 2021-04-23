@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/visacardspace_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/visacardView"
+        android:layout_width="240dp"
+        android:layout_height="110dp"
+        android:layout_marginVertical="12dp"
+        android:layout_gravity="center_horizontal"
+        android:requiresFadingEdge="horizontal"
+        app:cardBackgroundColor="@color/red"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/nameOnCard_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/montserrat"
+            android:text="Darot"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/DebitcardTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="43dp"
+            android:fontFamily="@font/montserrat"
+            android:text="Debit card"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/acctbalance_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="64dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="$ 23, 481,000.00"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="43dp"
+            android:fontFamily="@font/montserrat"
+            android:text="4321"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/visa_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="192dp"
+            android:layout_marginTop="65dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="VISA"
+            android:textColor="#FFFFFF" />
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
